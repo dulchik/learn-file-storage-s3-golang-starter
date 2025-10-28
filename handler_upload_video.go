@@ -156,7 +156,7 @@ func getVideoAspectRatio(filePath string) (string, error) {
 	}
 
 	width := output.Streams[0].Width
-	height := output.Streams[1].Height
+	height := output.Streams[0].Height
 
 	if width == 16*height/9 {
 		return "16:9", nil
