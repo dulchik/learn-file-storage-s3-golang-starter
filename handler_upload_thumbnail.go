@@ -1,10 +1,10 @@
 package main
 
 import (
-	"net/http"
 	"io"
-	"os"
 	"mime"
+	"net/http"
+	"os"
 
 	"github.com/bootdotdev/learn-file-storage-s3-golang-starter/internal/auth"
 	"github.com/google/uuid"
